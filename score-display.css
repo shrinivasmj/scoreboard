@@ -1,0 +1,92 @@
+body {
+    margin: 2px;
+    min-height: 100vh;
+    background: url("ground.png");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+ display: flex;
+ justify-content: space-evenly;
+ margin: 40px auto;
+ height: 300px;
+ width: 400px;
+ padding: 10px;
+ border-bottom: 10px;
+ border-radius: 10px;
+ box-shadow: 0 0 5px white;
+ border: 2px solid black;
+ flex-direction: row;
+ text-align: center;
+ background-color: #2e0f25;
+ color: white;
+ text-shadow: 0 0 1px black;
+}
+
+@font-face{
+
+  src:url("Digital-Numbers.ttf.woff");
+  font-family:digital;
+}
+
+#score-home{
+  font-family: digital ;
+  color: red;
+  font-size: 65px;
+  /* height: 100px;
+  width: 100px; */
+  text-align: center;
+  padding: 5px;
+  background-color: black;
+}
+
+#score-guest{
+  font-family: digital ;
+  color: red;
+  font-size: 65px;
+  /* height: 100px;
+  width: 100px; */
+  text-align: center;
+  padding: 5px;
+  background-color: black;
+}
+#home-div {
+  /* margin-top: 30px; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 2px;
+  height: 60%;
+  width: 60%;
+}
+
+#guest-div{
+  /* margin-top: 30px; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 60%;
+  width: 60%;
+}
+
+#btn-div{
+  background-color: transparent;
+  display: inline;
+  justify-content: space-between;
+  
+  margin: 5px auto;
+}
+button{
+  background-color: transparent;
+   border: 1px solid rgb(255, 255, 255);
+   border-radius: 3px;
+   color: white;
+   box-shadow: 0 0 2px black;
+   margin-top: 5px;
+   margin-left: 5px;
+   margin-right: 5px;
+   font-size: 18px;
+}
